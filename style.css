@@ -147,9 +147,9 @@ footer {
   }
 }
 
-/* Q&A Section */
+/* Q&A */
 #spa {
-  background-color: #44475a; /* Dracula selection color for Q&A section */
+  background-color:  #0859c6;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 40px;
   margin: 40px auto;
