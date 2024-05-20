@@ -2,7 +2,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #282a36; /* Dracula background color */
-  background-image: url('path/to/your/photo.jpg');
+  background-image: url('background.jpg');
   background-size: cover; /* Cover the entire background */
   background-position: center; /* Center the background image */
   background-repeat: repeat; /* Repeat the background image if it's not big enough */
