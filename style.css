@@ -1,10 +1,13 @@
 /* General Styles */
 body {
   font-family: 'Montserrat', sans-serif;
-  color: #f8f8f2; /* Dracula foreground color */
   background-color: #282a36; /* Dracula background color */
+  background-image: url('path/to/your/photo.jpg');
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: repeat; /* Repeat the background image if it's not big enough */
   margin: 0;
-  padding: 0;
+  padding: 0; 
 }
 
 /* Typography */
