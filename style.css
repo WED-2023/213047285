@@ -179,9 +179,9 @@ footer {
   color: #8be9fd; /* Dracula cyan color for underlined text */
 }
 
-/* More About Section */
+/* About Section */
 #about {
-  background-color: #44475a; /* Dracula selection color for More About section */
+  background-color: #44475a; /* Dracula selection color for About section */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 40px;
   margin: 40px auto;
