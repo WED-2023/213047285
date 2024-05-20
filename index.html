@@ -74,6 +74,125 @@
 <div class="fb-like" data-href="https://www.facebook.com/TheBritishMonarchy/" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
 </section>
 
+      
+    <section id="qrcode" class="section">
+        <h2>QR Code </h2>
+        <img src="photos/qrcode_img_static_git.PNG" width="300px" height="300px" > 
+    </section>
+        
+    <section id="spa" class="section">
+        <h1 style="margin-top:60px">Q&A</h1>
+
+        <div>
+        <h2><u>Question 1</u></h2>
+        <p>
+	    <u> אינטרקציית משתמש
+            <u>Web 1.0</u> בעיקר צרכן של התוכן, קריאה בלבד
+        </p>
+        <p>
+            <u>Web 2.0</u> בנוסף לקריאה, המשתמש יכול להשאיר טוקבקים   
+        </p>
+
+        <p>
+            <u>Web 3.0</u> למשתמש שליטה על המידע ועל הפונקציונליות כולל יצירה וכתיבה  
+        </p>
+
+        <h2><u>Question 2</u></h2>
+        <p>
+
+
+	 <p>
+	    <u> שליטה על המידע
+            <u>Web 1.0</u> חברות ותעשניות ששול
+        </p>
+        <p>
+            <u>Web 2.0</u> חברות הגדולות עדיין שולטות במידע אך למשתמשים יש יותר שליטה על מידע שלהם והשימוש בו  
+        </p>
+
+        <p>
+            <u>Web 3.0</u> פחות מונופול,מגמה של שליטה של הצרכן על המידע  
+        </p>
+
+        <h2><u>Question 2</u></h2>
+        <p>
+
+
+	 <p>
+	    <u> מורכבות 
+            <u>Web 1.0</u> אתרים פשוטים שמספקים מידע, שימוש של חברות גדולות
+        </p>
+        <p>
+            <u>Web 2.0</u> אתרים יותר דינמיים, פלטפורמות חברתיות, מדיה 
+        </p>
+
+        <p>
+            <u>Web 3.0</u> אתרים עם טכנולוגיות יותר מתקדמות, בלוקציין לדוגמה ומעורבות גדלה של משתמשים    
+        </p>
+
+        <h2><u>Question 2</u></h2>
+        <p>
+
+         דוגמה לאתר של שמתעסק באומנות 
+          <p>
+            <u>Web 1.0</u> בגרסה זו צרכנים יוכלו לצרוך מידע באתר, לגלות פרטי אומנות שונים שהעסק שיתף ולקרוא עוד מידע אודותם
+        </p>
+        <p>
+            <u>Web 2.0</u> הצרכנים יוכלו להיות יותר אינטרקטיבים באתר, לדוגמה להשאיר אימייל או טלפון בטופס לגבי יצירת אומנות מסויימת כדי לקבל עוד פרטים 
+        </p>
+
+        <p>
+            <u>Web 3.0</u> הצרכנים יכולים לרכוש דרך חוזה מאובטח אונליין,הצרכנים יכולים לקחת חלק ולהעלות יצירות אומנות בבעלותם לרשת הבלוקציין, דוגמת NFT    
+        </p>
+        </div>
+    </section>
+        
+    <section id="contact" class="section">
+        <h1>Contact Form</h1>
+        <form id="contact-form">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+    
+            <label for="smiley">Select a Smiley:</label>
+            <select id="smiley" name="smiley">
+                <option value="😊">😊 Smiling</option>
+                <option value="😀">😀 Grinning</option>
+                <option value="😉">😉 Winking</option>
+                <option value="😎">😎 Cool</option>
+                <option value="😍">😍 Heart Eyes</option>
+            </select>
+    
+            <button type="submit">Send</button>
+        </form>
+    
+    </section>
+    
+    <script>
+        // Function to handle form submission
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the default form submission
+    
+            // Get user input values
+            var userEmail = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+            var smiley = document.getElementById("smiley").value;
+    
+            // Construct email body
+            var emailBody = "From: " + userEmail + "\n" + "Message: " + message + "\n" + "Smiley: " + smiley;
+    
+            // Construct mailto URL with the destination email address
+            var mailtoURL = "mailto:idanhefe@post.bgu.ac.il?subject=Contact%20Me%20Please&body=" + encodeURIComponent(emailBody);
+    
+            // Open mail client with the mailto URL
+            window.location.href = mailtoURL;
+    
+            // Display alert message
+            alert("Your message has been sent successfully!");
+        });
+    </script>	
+
 <script type="text/javascript">
 $(function(){
   $("#nav a").click(function(e){
