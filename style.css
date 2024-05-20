@@ -10,7 +10,7 @@ body {
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  color: #ff79c6; /* Dracula pink color for headings */
+  color: #0859c6; /* blue color for headings */
 }
 
 
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navigationBar a:hover,
 .navigationBar a.active {
-  color: #ff79c6; /* Dracula pink color for active/hovered navigation links */
+  color: #0859c6; /* blue color for active/hovered navigation links */
 }
 
 /* Sections */
